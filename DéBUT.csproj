@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D4B6C94C-535B-4BEC-B493-C95F7F7DCCC4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DéBUT</RootNamespace>
+    <AssemblyName>DéBUT</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Client.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme_seconnecter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme_seconnecter.Designer.cs">
+      <DependentUpon>Forme_seconnecter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormModifier_produit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModifier_produit.Designer.cs">
+      <DependentUpon>FormModifier_produit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Add_Produit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Add_Produit.Designer.cs">
+      <DependentUpon>Form_Add_Produit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_crée_compt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_crée_compt.Designer.cs">
+      <DependentUpon>Form_crée_compt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_image_produit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_image_produit.Designer.cs">
+      <DependentUpon>Form_image_produit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="From gestion_du_vente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="From gestion_du_vente.Designer.cs">
+      <DependentUpon>From gestion_du_vente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="From_gestion_du_produit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="From_gestion_du_produit.Designer.cs">
+      <DependentUpon>From_gestion_du_produit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LA facture.cs" />
+    <Compile Include="Produit.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilisateur.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme_seconnecter.resx">
+      <DependentUpon>Forme_seconnecter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModifier_produit.resx">
+      <DependentUpon>FormModifier_produit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Add_Produit.resx">
+      <DependentUpon>Form_Add_Produit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_crée_compt.resx">
+      <DependentUpon>Form_crée_compt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_image_produit.resx">
+      <DependentUpon>Form_image_produit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="From gestion_du_vente.resx">
+      <DependentUpon>From gestion_du_vente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="From_gestion_du_produit.resx">
+      <DependentUpon>From_gestion_du_produit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\codage.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\traitementPhoto.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

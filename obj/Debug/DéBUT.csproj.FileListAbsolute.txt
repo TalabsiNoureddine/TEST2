@@ -1,0 +1,16 @@
+C:\Users\Noureddine\Documents\GESTION DES CLIENTES\DéBUT\bin\Debug\DéBUT.exe.config
+C:\Users\Noureddine\Documents\GESTION DES CLIENTES\DéBUT\bin\Debug\DéBUT.exe
+C:\Users\Noureddine\Documents\GESTION DES CLIENTES\DéBUT\bin\Debug\DéBUT.pdb
+C:\Users\Noureddine\Documents\GESTION DES CLIENTES\DéBUT\obj\Debug\DéBUT.csprojAssemblyReference.cache
+C:\Users\Noureddine\Documents\GESTION DES CLIENTES\DéBUT\obj\Debug\DéBUT.Form1.resources
+C:\Users\Noureddine\Documents\GESTION DES CLIENTES\DéBUT\obj\Debug\DéBUT.Forme_seconnecter.resources
+C:\Users\Noureddine\Documents\GESTION DES CLIENTES\DéBUT\obj\Debug\DéBUT.Form_crée_compt.resources
+C:\Users\Noureddine\Documents\GESTION DES CLIENTES\DéBUT\obj\Debug\DéBUT.Properties.Resources.resources
+C:\Users\Noureddine\Documents\GESTION DES CLIENTES\DéBUT\obj\Debug\DéBUT.csproj.GenerateResource.cache
+C:\Users\Noureddine\Documents\GESTION DES CLIENTES\DéBUT\obj\Debug\DéBUT.csproj.CoreCompileInputs.cache
+C:\Users\Noureddine\Documents\GESTION DES CLIENTES\DéBUT\obj\Debug\DéBUT.exe
+C:\Users\Noureddine\Documents\GESTION DES CLIENTES\DéBUT\obj\Debug\DéBUT.pdb
+C:\Users\Noureddine\Documents\GESTION DES CLIENTES\DéBUT\obj\Debug\DéBUT.Form_Add_Produit.resources
+C:\Users\Noureddine\Documents\GESTION DES CLIENTES\DéBUT\obj\Debug\DéBUT.From_gestion_du_produit.resources
+C:\Users\Noureddine\Documents\GESTION DES CLIENTES\DéBUT\obj\Debug\DéBUT.Form_image_produit.resources
+C:\Users\Noureddine\Documents\GESTION DES CLIENTES\DéBUT\obj\Debug\DéBUT.FormModifier_produit.resources
